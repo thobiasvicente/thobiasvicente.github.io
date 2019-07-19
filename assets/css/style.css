@@ -84,7 +84,7 @@ body{
 @media (min-width:320px) {
     .logo {
         width: 220px;
-        margin-top: -20px;
+        margin-top: -11px;
     }
 
     .logo-white{
@@ -102,8 +102,8 @@ body{
     }
 
     .logo{
-        width: 280px;
-        margin-top: -34px;
+        width: 230px;
+        margin-top: -14px;
     }
 
     .logo-white{
@@ -113,8 +113,7 @@ body{
 
 @media (min-width:425px) {
     .logo {
-        width: 290px;
-        margin-top: -33px;
+        width: 230px;
     }
     
     .logo-white{
@@ -129,7 +128,7 @@ body{
 
 @media (min-width:768px) {
     .logo {
-        width: 310px;
+        width: 230px;
     }
 
     .logo-white {
@@ -148,7 +147,7 @@ body{
     }
 
     .logo {
-        width: 310px;
+        width: 230px;
     }
 
     .logo-white {
@@ -162,7 +161,7 @@ body{
     }
 
     .logo {
-        width: 310px;
+        width: 230px;
     }
 
     .logo-white {
@@ -177,7 +176,7 @@ body{
     }
 
     .logo {
-        width: 310px;
+        width: 230px;
     }
 
     .logo-white {
