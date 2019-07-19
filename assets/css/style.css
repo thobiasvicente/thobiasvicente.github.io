@@ -1,0 +1,196 @@
+* {
+    /* font-family: 'Montserrat', sans-serif; */
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+.wallpaper {
+    padding-top: 25rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, .8)), to(rgba(92, 77, 66, .8))), url(../img/krieger/products.jpg);
+    background: linear-gradient(to bottom, rgba(131, 115, 115, 0.37) 0, rgba(92, 77, 66, .8) 100%), url(../img/krieger/products.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.tips {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgb(0, 0, 0))), url(../img/krieger/moutain-2.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.37) 0, rgb(0, 0, 0) 100%), url(../img/krieger/moutain-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.orange{
+    color: #fff;
+    background-color: rgb(146, 69, 52);
+    border-color: rgb(146, 69, 52);
+    box-shadow: 0 2px 2px 0 rgb(104, 49, 36), 0 3px 1px -2px rgb(110, 46, 31), 0 1px 5px 0 rgb(104, 58, 48);
+}
+.orange:hover {
+    color: #fff;
+    background-color: rgb(146, 69, 52);
+    border-color: rgb(146, 69, 52);
+  }
+
+.card .card-header-orange,
+.card.orange,
+.card.card-rotate.orange .front,
+.card.card-rotate.orange .back {
+    background: linear-gradient(60deg, rgb(196, 76, 49), rgb(146, 69, 52));
+}
+
+.card .card-header-orange {
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgb(146, 69, 52);
+}
+
+.wallpapersss {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,125,0,.6);
+    filter: brightness(50%);
+}
+
+.btn-outline-danger {
+    background-color: white;
+}
+
+.btn-outline-warning{
+    color: rgba(255,125,0,.6);
+    border:2px solid rgba(255,125,0,.6);
+}
+
+.btn-outline-warning:hover{
+    color: white;
+    border:2px solid rgba(255,125,0,.6);
+    background-color: rgba(255,125,0,.6);
+}
+
+.transparent-input {
+    border:2px solid rgba(255,125,0,.6);
+    background: transparent;
+}
+
+.transparent-input::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+@media (min-width:320px) {
+    .logo {
+        width: 220px;
+        margin-top: -20px;
+    }
+
+    .logo-white{
+        width: 290px;
+    }
+
+    .align-cart-btn{
+        margin-left: 1.5rem!important;
+    }
+}
+
+@media(min-width:375px){
+    .align-cart-btn{
+        margin-left: 3rem!important;
+    }
+
+    .logo{
+        width: 280px;
+        margin-top: -34px;
+    }
+
+    .logo-white{
+        width: 300px;
+    }
+}
+
+@media (min-width:425px) {
+    .logo {
+        width: 290px;
+        margin-top: -33px;
+    }
+    
+    .logo-white{
+        width: 390px;
+    }
+
+    .align-cart-btn{
+        margin-left: 5rem!important;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .logo {
+        width: 310px;
+    }
+
+    .logo-white {
+        width: 450px;
+    }
+
+    .align-cart-btn{
+        margin-left: 14rem!important;
+    }
+}
+
+
+@media(min-width:1024px){
+    .align-cart-btn{
+        margin-left: -1rem!important;
+    }
+
+    .logo {
+        width: 310px;
+    }
+
+    .logo-white {
+        width: 450px;
+    }
+}
+
+@media(min-width:1440px){
+    .align-cart-btn{
+        margin-left: 0.5rem!important;
+    }
+
+    .logo {
+        width: 310px;
+    }
+
+    .logo-white {
+        width: 450px;
+    }
+}
+
+@media(min-width:1280px){
+    
+    .align-cart-btn{
+        margin-left: 0.3rem!important;
+    }
+
+    .logo {
+        width: 310px;
+    }
+
+    .logo-white {
+        width: 450px;
+    }
+}
+
+
+
+
+    
+
+
+
+
+
